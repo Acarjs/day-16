@@ -1,0 +1,20 @@
+Exercise 1: Products
+1 Create an object representing a product in an e-shop. Give it these properties
+
+name - the name of the product
+price - the price of the product in euros
+quantity - number of items available in the store
+Create an array containing at least 7 different products.
+Creating such an array is hard work. Let's create a class Product to make our lives easier.
+
+Create a class named Product
+Create a constructor inside of it taking these three parameters: name, price and quantity. In the constructor set the properties of the object to the values of these parameters.
+Create the same array as before with the 7 products but now using your class and the new keyword.
+Now we add some methods to our class
+
+Add a method called sell() which will sell one product. This will decrease the number of products of this type in the store (decrease the quantity property)
+Add a method called store(count) which will put count more products of this type to the store
+Making a website
+
+Create a website that displays the products in our array. Display each product with its name, price, and quantity.
+Put a buy button next to each item that, when clicked, will call the method sell() on the appropriate object.
